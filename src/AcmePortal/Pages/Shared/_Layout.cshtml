@@ -40,6 +40,9 @@
                 <a asp-page="/ProductRequests/Pending">Pending Review</a>
             }
 
+            <div class="sidebar-heading mt-2">Transactions</div>
+            <a asp-page="/Transactions/Index">Customer Transactions</a>
+
             @if (User.IsInRole(AppRoles.Admin))
             {
                 <div class="sidebar-heading mt-2">Admin</div>

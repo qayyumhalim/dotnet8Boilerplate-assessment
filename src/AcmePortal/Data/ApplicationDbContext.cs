@@ -11,4 +11,5 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<ProductRequest> ProductRequests => Set<ProductRequest>();
     public DbSet<AuditLog> AuditLogs => Set<AuditLog>();
     public DbSet<Customer> Customers => Set<Customer>();
+    public DbSet<Transaction> Transactions => Set<Transaction>();
 }
